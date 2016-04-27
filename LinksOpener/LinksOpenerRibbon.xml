@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <contextMenus>
+    <contextMenu idMso="ContextMenuReadOnlyMailHyperlink">
+      <menu id="LOMenu" label="Open Link With..." getVisible="IsLinksOpenerVisible" getEnabled="IsLinksOpenerVisible">
+        <switchthis />
+      </menu>
+    </contextMenu>
+    <contextMenu idMso="ContextMenuHyperlink">
+      <menu id="LOMenuEdit" label="Open Link With..." getVisible="IsLinksOpenerVisible" getEnabled="IsLinksOpenerVisible">
+        <switchthisedit />
+      </menu>
+    </contextMenu>
+  </contextMenus>
+</customUI>
+
