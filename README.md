@@ -1,2 +1,2 @@
 # ms-outlook-links-opener
-(./docs/home.html)
+[see here](./docs/home.html)
